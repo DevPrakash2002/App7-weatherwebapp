@@ -28,5 +28,5 @@ try:
         image_path = [images[condition] for condition in temperatures]
         st.image(image_path, width=112)
 
-except KeyError:
+except :
     st.text("PLease enter a valid place")
